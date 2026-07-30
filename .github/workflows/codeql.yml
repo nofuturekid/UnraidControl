@@ -151,7 +151,7 @@ jobs:
         language: ${{ fromJSON(needs.config.outputs.langs) }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up JDK 21
         if: matrix.language == 'java-kotlin'
