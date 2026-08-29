@@ -12,6 +12,14 @@
       "Bash(gh pr view:*)",
       "Bash(gh pr merge:*)",
       "Bash(*)"
+    ],
+    "deny": [
+      "Edit(**/*.keystore)",
+      "Write(**/*.keystore)",
+      "Edit(./build/**)",
+      "Write(./build/**)",
+      "Edit(./app/build/**)",
+      "Write(./app/build/**)"
     ]
   },
   "hooks": {
